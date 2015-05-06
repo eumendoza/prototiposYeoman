@@ -28,5 +28,25 @@ angular.module('protoYeomanApp')
 	    	text: '¡Mantente en armonía con la naturaleza!'
 	    }
     ];
-    
+
+    baseURL = 'http://lorempixel.com/200/200/';
+
+    $scope.contenido = [
+	    {
+	    	title: 'Sobre Nosotros',
+	    	image: baseURL+'people/',
+	    	text: 'Somos una empresa comprometida con la vida sana'
+	    },
+	    {
+	    	title: 'Nuestros Servicios',
+	    	image: baseURL+'business/',
+	    	text: 'Ofrecemos asesoría profesional para mantenerse sano'
+	    },
+	    {
+	    	title: 'Contáctanos',
+	    	image: baseURL+'transport/',
+	    	text: '#333, Buena vida online, Plaza Central, Durance, ZIP-432167'
+	    }
+    ];
+
   });
