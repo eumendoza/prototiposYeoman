@@ -30,6 +30,10 @@ angular.module('protoYeomanApp')
 
   	for(var i=0;i<5;i++){
   		$scope.addPics(i);
-  	}
+  	};
+
+  	$scope.rate = 0;
+  	$scope.max = 10;
+  	$scope.isReadonly = false;
 
   });
