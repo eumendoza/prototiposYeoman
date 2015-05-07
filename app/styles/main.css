@@ -103,3 +103,7 @@ body {
   width:940px;
   height:300px;
 }
+
+.modal-body input{
+  display: block;
+}
