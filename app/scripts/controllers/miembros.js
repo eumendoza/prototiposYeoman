@@ -20,6 +20,7 @@ angular.module('protoYeomanApp')
     		{field:'fidelidad', displayName:'Puntos Fidelidad'},
     		{field:'fechaUnion', displayName:'Fecha de Unión'},
     		{field:'tipoMiembro', displayName:'Tipo de Miembro'}
-    	]
+    	],
+    	showGroupPanel: true
     };
   });
