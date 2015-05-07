@@ -21,6 +21,9 @@ angular.module('protoYeomanApp')
     		{field:'fechaUnion', displayName:'Fecha de Unión'},
     		{field:'tipoMiembro', displayName:'Tipo de Miembro'}
     	],
-    	showGroupPanel: true
+    	showGroupPanel: true,
+    	enableCellSelection: true,
+    	enableRowSelection: false,
+    	enableCellEdit: true
     };
   });
