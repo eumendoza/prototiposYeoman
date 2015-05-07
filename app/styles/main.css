@@ -98,3 +98,8 @@ body {
 .thumbnails img{
   width: 100%;
 }
+
+.gridStyles{
+  width:940px;
+  height:300px;
+}
