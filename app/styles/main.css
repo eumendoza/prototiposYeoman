@@ -94,3 +94,7 @@ body {
   border-radius: 6px;
   padding: 60px;
 }
+
+.thumbnails img{
+  width: 100%;
+}
